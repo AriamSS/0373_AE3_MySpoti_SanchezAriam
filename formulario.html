@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter: Leïti Sène</title>
+</head>
+<body>
+    <a href="index.html">Enlace a la pagina de inicio</a>
+
+    <h1>¡Apuntate la newsletter de Leïti!</h1>
+    <hr>
+    <h4>Rellena este formulario para recibir una newsletter mensual sobre Leïti Sène.</h4>
+    <form action="__" method="GET">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre"><br><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Introduce tus apellidos"><br><br>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Introduce tu email"><br><br>
+
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Introduce tu número tlf."><br><br>
+
+        <fieldset>
+            <legend>¿En qué idioma quieres recibir el boletin de noticias mensual?</legend>
+            <input type="radio" id="idioma_castellano" name="idioma" value="castellano">
+            <label for="idioma_castellano">Castellano</label>
+            <input type="radio" id="idioma_catalan" name="idioma" value="catalan">
+            <label for="idioma_catalan">Catalán</label>
+            <input type="radio" id="idioma_inglés" name="idioma" value="inglés">
+            <label for="idioma_inglés">Inglés</label>
+        </fieldset><br>
+
+        <label for="pais">País:</label>
+        <select id="pais" name="pais">
+            <option value="" disabled>Seleccione un país</option>
+            <option value="España">España</option>
+            <option value="France">Francia</option>
+            <option value="Alemania">Alemania</option>
+            <option value="Italia">Italia</option>
+            <option value="Portugal">Portugal</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>¿Qué deseas leer en la newsletter?</legend>
+            <input type="checkbox" id="noticias" name="interes" value="noticias">
+            <label for="noticias">Noticias del artista</label><br>
+            <input type="checkbox" id="letras" name="interes" value="letras">
+            <label for="letras">Making Of: Como nace cada tema de Leïti</label><br>
+            <input type="checkbox" id="discografia" name="interes" value="discografia">
+            <label for="discografia">Discografía</label><br>
+            <input type="checkbox" id="merch" name="interes" value="merch">
+            <label for="merch">Merchandising</label><br>
+            <input type="checkbox" id="videoclips" name="interes" value="videoclips">
+            <label for="videoclips">Videoclips y grabaciones</label><br>
+            <input type="checkbox" id="entrevistas" name="interes" value="entrevistas">
+            <label for="entrevistas">Entrevistas y documentales</label><br>
+            <input type="checkbox" id="colaboraciones" name="interes" value="colaboraciones">
+            <label for="colaboraciones">Colaboraciones</label><br>
+            <input type="checkbox" id="sorteos" name="interes" value="sorteos">
+            <label for="sorteos">Sorteos</label><br>
+        </fieldset>
+        
+        <br>
+
+        Al enviar este formulario, aceptas los terminos y condiciones de la página web para recibir la newsletter al correo proporcionado anteriormente.
+
+        <br>
+        <br>
+        
+        <button type="submit">Enviar datos y apuntarme a la newsletter de Leïti Sène.</button><br><br>
+    </form>
+</body>
+</html>
